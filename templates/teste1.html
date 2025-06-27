@@ -1,0 +1,160 @@
+document.addEventListener('DOMContentLoaded', function() {
+/**
+* Configura um botão para redirecionar para uma URL específica ao ser clicado.
+* Exibe um aviso no console se o botão não for encontrado.
+* @param {string} buttonId - O ID do elemento botão no HTML.
+* @param {string} targetUrl - A URL para a qual o usuário será redirecionado.
+*/
+function setupButtonLink(buttonId, targetUrl) {
+const button = document.getElementById(buttonId);
+
+if (button) {
+button.addEventListener('click', function() {
+console.log(`Botão "${buttonId}" clicado! Redirecionando para: ${targetUrl}`);
+window.location.href = targetUrl;
+});
+} else {
+console.warn(`Aviso: Botão com ID "${buttonId}" não encontrado no DOM. Verifique o HTML.`);
+}
+}
+
+// --- Configuração dos botões de navegação ---
+// Importante: Os `targetUrl` devem corresponder às ROTAS (URLs)
+// que seu backend serve para cada uma dessas páginas, e não os caminhos de arquivo.
+// Exemplo: se "quem-criou.html" está em "Templates/", seu backend deve ter uma rota
+// que aponta para ela, como '/quem-criou'.
+
+setupButtonLink('btnQuemCriouPython', '/quem-criou');
+setupButtonLink('btnSobrePython', '/sobre-python');
+setupButtonLink('btnRecursos', '/recursos');
+setupButtonLink('btnTutoriais', '/tutoriais');
+
+// Botão Comunidade: Esta é uma URL externa e permanece a mesma.
+setupButtonLink('btnComunidade', 'https://www.python.org/community/');
+
+setupButtonLink('btnProjetos', '/projetos');
+setupButtonLink('btnFerramentas', '/ferramentas');
+setupButtonLink('btnNoticias', '/noticias');
+setupButtonLink('btnEventos', '/eventos');
+setupButtonLink('btnContato', '/contato');
+setupButtonLink('btnFAQ', '/faq');
+setupButtonLink('btnTermos', '/termos');
+
+console.log('Todos os listeners de botões de navegação foram configurados.');
+
+// --- Lógica Específica da Tela de Login ---
+const loginForm = document.getElementById('loginForm');
+const usernameInput = document.getElementById('username');
+const passwordInput = document.getElementById('password');
+const errorMessage = document.getElementById('errorMessage');
+
+if (loginForm) { // Verifica se o formulário de login existe na página
+loginForm.addEventListener('submit', function(event) {
+event.preventDefault(); // Impede o envio padrão do formulário
+
+const username = usernameInput.value;
+const password = passwordInput.value;
+
+// Lógica de validação simples (apenas para demonstração)
+// Em uma aplicação real, você enviaria esses dados para o seu backend
+// para autenticação segura.
+if (username === 'usuario' && password === 'senha123') {
+errorMessage.textContent = ''; // Limpa qualquer mensagem de erro
+alert('Login bem-sucedido!');
+// Exemplo de redirecionamento após login bem-sucedido
+// window.location.href = '/dashboard'; // Assumindo uma rota de dashboard no backend
+} else {
+errorMessage.textContent = 'Usuário ou senha inválidos.';
+passwordInput.value = ''; // Opcional: limpar a senha digitada
+}
+});
+} else {
+console.warn('Aviso: Formulário de login com ID "loginForm" não encontrado. A lógica de login não será aplicada.');
+}
+});
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações sobre Python</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Estilos básicos para organizar os botões */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Descubra Mais Sobre Python!</h1>
+
+        <div class="button-grid">
+            <button id="btnQuemCriouPython">Quem Criou Python?</button>
+            <button id="btnSobrePython">Sobre Python</button>
+            <button id="btnRecursos">Recursos para Aprender</button>
+            <button id="btnTutoriais">Tutoriais</button>
+            <button id="btnComunidade">Comunidade</button>
+            <button id="btnProjetos">Projetos</button>
+            <button id="btnFerramentas">Ferramentas Essenciais</button>
+            <button id="btnNoticias">Últimas Notícias</button>
+            <button id="btnEventos">Eventos e Conferências</button>
+            <button id="btnContato">Contato</button>
+            <button id="btnFAQ">FAQ (Perguntas Frequentes)</button>
+            <button id="btnTermos">Termos de Uso</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
