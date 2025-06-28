@@ -2,8 +2,7 @@
 
 Este repositório contém os arquivos de um site informativo simples sobre a linguagem de programação Python, com foco em suas aplicações, facilidade de uso e recursos.
 
-- Estrutura do Projeto  [https://github.com/sheysson/HORADECODAR/blog/main/%2Findex.html]
-
+- Estrutura do Projeto  
     O projeto é composto por três arquivos principais:
 
     index.html: O arquivo HTML principal que contém a estrutura do conteúdo da página, incluindo o título, a descrição sobre Python e uma série de botões de navegação.
