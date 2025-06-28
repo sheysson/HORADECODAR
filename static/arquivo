@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Criou o Python?</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <header>
+        <h1>Quem Criou o Python?</h1>
+    </header>
+
+    <main>
+        <p>
+            O Python foi criado por **Guido van Rossum** no final dos anos 80 e início dos anos 90, no Centrum Wiskunde & Informatica (CWI) na Holanda. Ele foi concebido como um sucessor da linguagem ABC, com o objetivo de ser uma linguagem de programação mais legível e fácil de usar.
+        </p>
+        <p>
+            Van Rossum atuou como o "Ditador Benevolente Vitalício" (BDFL) do projeto Python até julho de 2018, um título que ele mesmo se deu, significando que ele presidia o processo de desenvolvimento e tomava as decisões finais para a linguagem. Desde então, a liderança do projeto passou para um conselho diretivo eleito pela comunidade.
+        </p>
+        <p>
+            A primeira versão do Python (0.9.0) foi lançada em fevereiro de 1991. Desde então, a linguagem cresceu exponencialmente em popularidade e se tornou uma das mais utilizadas no mundo para diversas aplicações, desde desenvolvimento web e ciência de dados até inteligência artificial e automação.
+        </p>
+        <p>
+            Para saber mais, você pode visitar a página da Wikipedia sobre <a href="https://pt.wikipedia.org/wiki/Guido_van_Rossum" target="_blank">Guido van Rossum</a> ou a página oficial da <a href="https://www.python.org/doc/essays/history/" target="_blank">história do Python</a>.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meu Site - Saiba mais sobre Python</p>
+        <script src="Script.js"></script>
+        </footer>
+
+</body>
+</html>
+
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+}
+
+.login-container { /* Note: Este estilo parece ser de uma tela de login anterior. Pode ser removido se não for usado
+aqui. */
+background-color: #fff;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+width: 300px;
+text-align: center;
+}
+
+h2 { /* Note: Este estilo parece ser de uma tela de login anterior. Pode ser removido se não for usado aqui. */
+margin-bottom: 20px;
+color: #333;
+}
+
+.input-group { /* Note: Este estilo parece ser de uma tela de login anterior. Pode ser removido se não for usado aqui.
+*/
+margin-bottom: 15px;
+text-align: left;
+}
+
+.input-group label { /* Note: Este estilo parece ser de uma tela de login anterior. Pode ser removido se não for usado
+aqui. */
+display: block;
+margin-bottom: 5px;
+color: #555;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] { /* Note: Este estilo parece ser de uma tela de login anterior. Pode ser removido
+se não for usado aqui. */
+width: calc(100% - 20px);
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+
+/* O resto dos seus estilos para a página Python */
+h1 {
+color: #333;
+margin-bottom: 30px;
+}
+
+.button-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 15px;
+margin-top: 20px;
+}
+
+button {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #45a049;
+}
+
+.error-message { /* Note: Este estilo parece ser de uma tela de login anterior. Pode ser removido se não for usado aqui.
+*/
+color: red;
+margin-top: 10px;
+font-size: 0.9em;
+}
