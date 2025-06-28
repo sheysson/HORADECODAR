@@ -54,6 +54,6 @@ Este repositório contém os arquivos de um site informativo simples sobre a lin
 
     Considerar um framework CSS: Para projetos maiores, frameworks como Bootstrap ou Tailwind CSS podem agilizar o desenvolvimento do design.
 
-#### Sinta-se à vontade para explorar e contribuir!
+- Sinta-se à vontade para explorar e contribuir!
 
 © 2025 Meu Site
