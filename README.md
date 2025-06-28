@@ -2,6 +2,7 @@
 
 Este repositório contém os arquivos de um site informativo simples sobre a linguagem de programação Python, com foco em suas aplicações, facilidade de uso e recursos.
 
+- Estrutura do Projeto  
 - Estrutura do Projeto  [https://sheysson.github.io/HORADECODAR/docs/index.html]
 
     O projeto é composto por três arquivos principais:
