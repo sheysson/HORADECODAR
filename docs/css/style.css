@@ -185,5 +185,4 @@ footer {
     left: 0; /* Garante que o footer comece do lado esquerdo da tela */
     z-index: 1000; /* Garante que o footer fique acima de outros elementos */
     margin-top: 20px; /* Espaçamento acima do footer */
-    min-height: auto;
 }
