@@ -1,8 +1,8 @@
-*Bem-vindo ao Mundo do Python!
+* Bem-vindo ao Mundo do Python!
 
 Este repositório contém os arquivos de um site informativo simples sobre a linguagem de programação Python, com foco em suas aplicações, facilidade de uso e recursos.
 
-**Estrutura do Projeto
+** Estrutura do Projeto
 
 O projeto é composto por três arquivos principais:
 
@@ -12,9 +12,9 @@ O projeto é composto por três arquivos principais:
 
     static/script.js: O arquivo JavaScript que adicionará interatividade à página. Atualmente, ele está vinculado, mas o conteúdo específico para os botões e outras funcionalidades pode ser adicionado aqui.
 
-**Como Visualizar
+** Como Visualizar
 
-Para visualizar a página em seu navegador:
+    Para visualizar a página em seu navegador:
 
     Clone este repositório (se estiver usando controle de versão) ou salve os arquivos em uma pasta local.
 
@@ -22,7 +22,7 @@ Para visualizar a página em seu navegador:
 
     Abra o arquivo index.html em seu navegador web preferido.
 
-**Tecnologias Utilizadas
+** Tecnologias Utilizadas
 
     HTML5: Para a estrutura e conteúdo da página.
 
@@ -40,9 +40,9 @@ Para visualizar a página em seu navegador:
 
     Rodapé: Um rodapé simples com o aviso de copyright.
 
-**Próximos Passos e Melhorias
+** Próximos Passos e Melhorias
 
-Este é um projeto inicial e pode ser expandido de várias maneiras:
+    Este é um projeto inicial e pode ser expandido de várias maneiras:
 
     Implementar a funcionalidade dos botões: Adicionar lógica JavaScript para que os botões naveguem para seções específicas da página (usando âncoras) ou carreguem conteúdo dinamicamente.
 
@@ -54,6 +54,6 @@ Este é um projeto inicial e pode ser expandido de várias maneiras:
 
     Considerar um framework CSS: Para projetos maiores, frameworks como Bootstrap ou Tailwind CSS podem agilizar o desenvolvimento do design.
 
-**Sinta-se à vontade para explorar e contribuir!
+**  Sinta-se à vontade para explorar e contribuir!
 
 © 2025 Meu Site
