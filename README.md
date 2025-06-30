@@ -1,8 +1,8 @@
-* Bem-vindo ao Mundo do Python
+# _Bem-vindo ao Mundo do Python_
 
 Este repositório contém os arquivos de um site informativo simples sobre a linguagem de programação Python, com foco em suas aplicações, facilidade de uso e recursos.
 
-- Estrutura do Projeto  
+### _Estrutura do Projeto_  
 
     O projeto é composto por três arquivos principais:
 
@@ -10,7 +10,7 @@ Este repositório contém os arquivos de um site informativo simples sobre a lin
 
     static/style.css: O arquivo CSS que será responsável pela estilização visual da página, como cores, fontes, layout e responsividade.
 
-- Como Visualizar
+### Como Visualizar
 
     Para visualizar a página em seu navegador:
 
@@ -20,7 +20,7 @@ Este repositório contém os arquivos de um site informativo simples sobre a lin
 
     Abra o arquivo index.html em seu navegador web preferido.
 
-- Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
     HTML5: Para a estrutura e conteúdo da página.
 
@@ -28,7 +28,7 @@ Este repositório contém os arquivos de um site informativo simples sobre a lin
 
     JavaScript: Para interatividade (o arquivo está pronto para receber sua lógica).
 
-- Funcionalidades Atuais
+### Funcionalidades Atuais
 
     Título Principal: "Bem-vindo ao Mundo do Python!"
 
@@ -38,7 +38,7 @@ Este repositório contém os arquivos de um site informativo simples sobre a lin
 
     Rodapé: Um rodapé simples com o aviso de copyright.
 
--  Próximos Passos e Melhorias
+### Próximos Passos e Melhorias
 
     Este é um projeto inicial e pode ser expandido de várias maneiras:
 
@@ -52,8 +52,8 @@ Este repositório contém os arquivos de um site informativo simples sobre a lin
 
     Considerar um framework CSS: Para projetos maiores, frameworks como Bootstrap ou Tailwind CSS podem agilizar o desenvolvimento do design.
 
-- Sinta-se à vontade para explorar e contribuir!
+### Sinta-se à vontade para explorar e contribuir!
 
-### [Para acessar o site clik aqui!](https://sheysson.github.io/HORADECODAR/docs/index.html)
+### [Acessar o site aqui!](https://sheysson.github.io/HORADECODAR/docs/index.html)
 
 © 2025 Meu Site
