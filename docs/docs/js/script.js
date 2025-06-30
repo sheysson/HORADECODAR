@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Mapeamento dos IDs dos botões para as ROTAS (URLs) correspondentes
     const pageMap = {
-        'btnQuemCriouPython': '/quem-criou-python', // Rota Flask
-        'btnSobrePython': '/sobre-python',         // Rota Flask
-        'btnRecursos': '/recursos',
-        'btnTutoriais': '/tutoriais',
-        'btnComunidade': '/comunidade',
-        'btnProjetos': '/projetos',
-        'btnFerramentas': '/ferramentas',
-        'btnNoticias': '/noticias',
-        'btnEventos': '/eventos',
-        'btnContato': '/contato',
-        'btnFAQ': '/faq',
-        'btnTermos': '/termos'
+        'btnQuemCriouPython': '/docs/quem-criou-python', // Rota Flask
+        'btnSobrePython': '/docs/sobre-python',         // Rota Flask
+        'btnRecursos': '/docs/recursos',
+        'btnTutoriais': '/docs/tutoriais',
+        'btnComunidade': '/docs/comunidade',
+        'btnProjetos': '/docs/projetos',
+        'btnFerramentas': '/docs/ferramentas',
+        'btnNoticias': '/docs/noticias',
+        'btnEventos': '/docs/eventos',
+        'btnContato': '/docs/contato',
+        'btnFAQ': '/docs/faq',
+        'btnTermos': '/docs/termos'
     };
 
     // Percorre cada entrada no mapa para adicionar o event listener
