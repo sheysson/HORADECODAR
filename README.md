@@ -52,6 +52,8 @@ Este repositório contém os arquivos de um site informativo simples sobre a lin
 
     Considerar um framework CSS: Para projetos maiores, frameworks como Bootstrap ou Tailwind CSS podem agilizar o desenvolvimento do design.
 
-- [Sinta-se à vontade para explorar e contribuir!](https://sheysson.github.io/HORADECODAR/docs/index.html)
+- Sinta-se à vontade para explorar e contribuir!
+
+### [Para acessar o site clik aqui!](https://sheysson.github.io/HORADECODAR/docs/index.html)
 
 © 2025 Meu Site
