@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'btnFAQ': 'docs/faq.html',                         // AGORA DENTRO DE 'docs/'
         'btnTermos': 'docs/termos.html'                    // AGORA DENTRO DE 'docs/'
     };
-
+ 
     // Percorre cada entrada no mapa para adicionar o event listener
     for (const buttonId in pageMap) {
         if (pageMap.hasOwnProperty(buttonId)) {
