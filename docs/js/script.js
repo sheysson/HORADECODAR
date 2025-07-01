@@ -1,33 +1,31 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Mapeamento dos IDs dos botões para os NOMES DE ARQUIVOS HTML (ou URLs completas)
     const pageMap = {
-        'btnQuemCriouPython': '/quem-criou-python.html', // AGORA DENTRO DE 'docs/'
-        'btnSobrePython': '/sobre-python.html',         // AGORA DENTRO DE 'docs/'
-        'btnRecursos': '/recursos.html',               // AGORA DENTRO DE 'docs/'
-        'btnTutoriais': '/tutoriais.html',             // AGORA DENTRO DE 'docs/'
-        'btnComunidade': '/comunidade.html',           // Já estava aqui, mantido
-        'btnProjetos': '/projetos.html',               // Já estava aqui, mantido
-        'btnFerramentas': '/ferramentas.html',         // Já estava aqui, mantido
-        'btnNoticias': '/noticias.html',               // AGORA DENTRO DE 'docs/'
-        'btnEventos': '/eventos.html',                 // AGORA DENTRO DE 'docs/'
-        'btnContato': '/contato.html',                 // AGORA DENTRO DE 'docs/'
-        'btnFAQ': '/faq.html',                         // AGORA DENTRO DE 'docs/'
-        'btnTermos': '/termos.html'                    // AGORA DENTRO DE 'docs/'
+        'btnQuemCriouPython': '/quem-criou-python.html', 
+        'btnSobrePython': '/sobre-python.html',         
+        'btnRecursos': '/recursos.html',               
+        'btnTutoriais': '/tutoriais.html',             
+        'btnComunidade': '/comunidade.html',           
+        'btnProjetos': '/projetos.html',              
+        'btnFerramentas': '/ferramentas.html',         
+        'btnNoticias': '/noticias.html',               
+        'btnEventos': '/eventos.html',                 
+        'btnContato': '/contato.html',                 
+        'btnFAQ': '/faq.html',                         
+        'btnTermos': '/termos.html'                    
     };
  
     // Percorre cada entrada no mapa para adicionar o event listener
     for (const buttonId in pageMap) {
-        if (pageMap.hasOwnProperty(buttonId)) {
-            const button = document.getElementById(buttonId);
-            if (button) { // Verifica se o botão existe no HTML
+        const button = document.getElementById(buttonId);
+        if (button) { // Verifica se o botão existe no HTML
                 button.addEventListener('click', function() {
-                    const pagePath = pageMap[buttonId];
-                    // Redireciona para o arquivo HTML correspondente
-                    window.location.href = pagePath; 
+                  
+                    window.location.href = pageMap[buttonId];   
                 });
-            } else {
-                console.warn(`Botão com ID "${buttonId}" não encontrado no HTML.`);
-            }
+        } 
+        else {
+            console.warn(`Botão com ID "${buttonId}" não encontrado no HTML.`);
         }
     }
 });

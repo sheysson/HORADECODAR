@@ -9,14 +9,13 @@
 
     <title>Meu Site</title>
 
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="../static/style.css">
 
     <!-- É uma boa prática carregar o JavaScript no final do <body>
 
 ou usar DOMContentLoaded, como faremos, para garantir que os elementos estejam prontos. -->
 
-    <script src="/static/Script.js"></script>
-
+  
 </head>
 
 <body>
@@ -74,3 +73,10 @@ ou usar DOMContentLoaded, como faremos, para garantir que os elementos estejam p
 </footer>
 
 </html>
+
+<script src="../Script.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Aqui você pode adicionar scripts que dependem do DOM carregado
+    });
+</script>
