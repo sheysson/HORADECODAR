@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Mapeamento dos IDs dos botões para os NOMES DE ARQUIVOS HTML (ou URLs completas)
     const pageMap = {
+        'btnHome':            '/index.html', 
         'btnQuemCriouPython': '/quem-criou-python.html', 
         'btnSobrePython':     '/sobre-python.html',         
         'btnRecursos':        '/recursos.html',               
