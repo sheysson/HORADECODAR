@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
      * @param {string} url - Caminho do arquivo HTML a ser aberto.
      */
     function abrirNovaAba(url) {
-        window.open(url, '_self'); 
+        window.open(url, '_self'); // Abre a URL na mesma aba
     }
 
     // Mapeamento dos IDs dos botões para os respectivos arquivos HTML
