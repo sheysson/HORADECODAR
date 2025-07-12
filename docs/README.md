@@ -56,7 +56,5 @@ Este repositório contém os arquivos de um site informativo simples sobre a lin
 
 ### [Acessar o site aqui!](https://sheysson.github.io/HORADECODAR/docs/index.html)
 
-quem_criou_python.html
-quem_criou_python.html
 
 © 2025 Meu Site
