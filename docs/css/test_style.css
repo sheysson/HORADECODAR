@@ -1,1 +1,192 @@
+<<<<<<< HEAD
 docs/css/style.css
+=======
+/* --- Reset CSS --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura e altura dos elementos */
+    font-family: 'Google sans', sans-serif; /* Define a fonte padrão para todo o site */
+}
+
+/* --- Global / Body Styles --- */
+body {
+    background-color: #ec4b4b; /* Cor de fundo azul */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* --- Header Styles ---estilo de cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+/* --- Navigation Styles --- */
+nav {
+    /* Centraliza a navegação, se for uma barra horizontal */
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    display: inline-block; /* Crucial para aplicar largura, altura e padding corretamente */
+    background-color: #007bff; /* Cor de fundo azul para os botões */
+    color: white; /* Cor do texto branca */
+    text-decoration: none;
+    padding: 10px 20px; /* Padding interno para dar espaço ao redor do texto */
+    border: 1px solid #b30027; /* Borda sutil para o efeito de caixa */
+    border-radius: 8px; /* Cantos levemente arredondados */
+    margin: 5px; /* Espaçamento entre os botões */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transição suave ao passar o mouse */
+    font-weight: bold; /* Deixa o texto mais evidente */
+}
+
+nav a:hover {
+    background-color: #0056b3; /* Fundo mais escuro ao passar o mouse */
+    border-color: #f00; /* Borda mais escura ao passar o mouse */
+    cursor: pointer; /* Indica que é clicável */
+}
+
+
+/* --- Estilos de Link --- */
+a {
+    color: #60f10b; /* Cor azul para links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}   
+
+/* --- Main Content Area Styles --- */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* --- Heading Styles tittle--- */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Google sans', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+    margin-top: 0;
+}
+
+h2 {/*botoes */
+
+    color: #f5dd05;
+    font-size: 2em; 
+    margin-bottom: 15px;
+    font-weight: bold;  
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    letter-spacing: 0.05em; /* Espaçamento entre letras */
+    text-align: center; /* Centraliza o título */
+    font-family: 'Google sans', sans-serif;
+    padding: 5px 0; 
+    margin-top: 0;
+
+    
+
+    
+}
+h3
+{
+    color: #f5dd05;
+    font-size: 1.5em; 
+    margin-bottom: 10px;
+    font-weight: bold;  
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    letter-spacing: 0.05em; /* Espaçamento entre letras */
+    text-align: left; /* Centraliza o título */
+    font-family: 'Google sans', sans-serif;
+    padding: 5px 0; 
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+
+/* --- Paragraph and List Styles --- */
+p { /* Corrigido de p1 para p */
+    font-family: 'Google sans', sans-serif;
+    color: #000007;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+/* Example: Remove bullets only from lists with class 'no-bullets' */
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    /* 
+        Adds a top margin of 10 pixels to the selected element(s), 
+        creating space above them.
+    */
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+   
+/* --- Footer Styles --- */
+footer {
+    font-family: 'Google sans', sans-serif; /* Fonte padrão do rodapé */
+    font-size: small; /* Tamanho de fonte pequeno */
+    background-color: #bee415; /* Cor de fundo amarelo claro */
+    text-align: center; /* (Nota: flexbox não é um valor válido, use 'flex' se necessário) */
+    padding: 10px 0 10px 0; /* Espaçamento interno acima e abaixo */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+    position: fixed; /* Fixa o rodapé na parte inferior da tela */
+    bottom: -15px; /* Posiciona o rodapé 15px abaixo do fundo (pode ocultar parte do rodapé) */
+    width: 100%; /* Ocupa toda a largura da tela */
+    left: 0; /* Alinha o rodapé à esquerda */
+    z-index: 100; /* Mantém o rodapé acima de outros elementos */
+    white-space: nowrap; /* Impede quebra de linha no texto */
+}
+>>>>>>> e1543883f7caa4d3b4356e685cc12612f32128bb
