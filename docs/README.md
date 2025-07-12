@@ -1,4 +1,4 @@
-# _Bem-vindo ao Mundo do Python_
+# _Bem-vindo ao Mundo do Python_ 
 
 Este repositório contém os arquivos de um site informativo simples sobre a linguagem de programação Python, com foco em suas aplicações, facilidade de uso e recursos.
 
