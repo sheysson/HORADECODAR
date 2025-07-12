@@ -1,76 +1,19 @@
-img{
-    max-width: 100%; /* Garante que as imagens não excedam a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-}
-
-
-/* --- Reset CSS --- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura e altura dos elementos */
-    font-family: 'Google sans', sans-serif; /* Define a fonte padrão para todo o site */
-}
-
-/* --- Global / Body Styles --- */
-body {
-    background-color: #ec4b4b; /* Cor de fundo azul 
-    font-size: 16px; /* Tamanho de fonte padrão */
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-/* --- Header Styles ---estilo de cabeçalho */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 0;
-    text-align: center;
-}
-
-/* --- Estilos de Link --- */
-a {
-    color: #60f10b; /* Cor azul para links */
-    text-decoration: none; /* Remove o sublinhado padrão */
-}   
-
-
-/* --- Heading Styles tittle--- */
-h1 {
-    color: #333;
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-    padding: 10px 0;
-    border-bottom: 2px solid #ccc;
-    margin-top: 0;
-}
-
-h2 {/*botoes */
-
-    color: #f5dd05;
-    font-size: 2em; 
-    margin-bottom: 15px;
-    font-weight: bold;  
-    text-transform: uppercase; /* Deixa o texto em maiúsculas */
-    letter-spacing: 0.05em; /* Espaçamento entre letras */
-    text-align: center; /* Centraliza o título */
+    body {
+    background-color: #ec4b4b; /* Cor de fundo azul */
+  }
+  
+  
+  h2{
+    letter-spacing: 0.05em; 
+    text-align: center; 
     font-family: 'Google sans', sans-serif;
     padding: 5px 0; 
     margin-top: 0;
-    
+   
 }
 
 h3{
-    color: #f5dd05;
-    font-size: 1.5em; 
+    color: #511ad1;
     margin-bottom: 10px;
     font-weight: bold;  
     text-transform: uppercase; /* Deixa o texto em maiúsculas */
@@ -81,6 +24,12 @@ h3{
     margin-top: 0;
     margin-left: 15px;
 }
+
+/* --- Estilos de Link --- */
+a {
+    color: #60f10b; /* Cor azul para links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}   
 
 p { 
     font-family: 'Google sans', sans-serif;
@@ -94,10 +43,9 @@ p {
 
 ul {
     padding: 0;
-    style ="margin-bottom: 200px;"
+   
 }
 
-/* Example: Remove bullets only from lists with class 'no-bullets' */
 ul.no-bullets {
     list-style-type: none;
     padding: 0;
@@ -109,28 +57,6 @@ ul li {
     padding: 13px;
     border-radius: 5px;
 }
-
-.input-group input[type="text"],
-.input-group input[type="password"] {
-    width: calc(100% - 20px);
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.login-container button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    width: 100%;
-    margin-top: 10px;
-    margin-top: 10px;
-}
-  
 
 footer {
     font-family: 'Google sans', sans-serif; /* Fonte padrão do rodapé */
