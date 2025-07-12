@@ -94,6 +94,7 @@ p {
 
 ul {
     padding: 0;
+    style ="margin-bottom: 200px;"
 }
 
 /* Example: Remove bullets only from lists with class 'no-bullets' */
