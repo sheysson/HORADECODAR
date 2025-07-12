@@ -8,7 +8,7 @@
 
 /* --- Global / Body Styles --- */
 body {
-    background-color: #007bff; /* Cor de fundo azul */
+    background-color: #ec4b4b; /* Cor de fundo azul */
 }
 
 a {
@@ -45,7 +45,7 @@ nav a {
 
 nav a:hover {
     background-color: #0056b3; /* Fundo mais escuro ao passar o mouse */
-    border-color: #004085; /* Borda mais escura ao passar o mouse */
+    border-color: #f00; /* Borda mais escura ao passar o mouse */
     cursor: pointer; /* Indica que é clicável */
 }
 
@@ -129,6 +129,11 @@ p { /* Corrigido de p1 para p */
 }
 
 ul {
+    padding: 0;
+}
+
+/* Example: Remove bullets only from lists with class 'no-bullets' */
+ul.no-bullets {
     list-style-type: none;
     padding: 0;
 }
@@ -140,9 +145,6 @@ ul li {
     border-radius: 5px;
 }
 
-
-
-}
 
 .input-group input[type="text"],
 .input-group input[type="password"] {
@@ -172,17 +174,16 @@ ul li {
    
 /* --- Footer Styles --- */
 footer {
-    font-family: 'Google sans', sans-serif;
-    font-size: small;
-    background-color: #f5dd05; /* Cor de fundo amarelo */
-    color: #f00505ec;
-    text-align: center; 
-    padding: 10px 0 10px 0; 
-    box-sizing: border-box;
-    position: fixed; /* Permite que o footer fique fixo no final da página */
-    bottom: 0px; /* Fixa o footer na parte inferior da página */
-    width: 100%; /* Garante que o footer ocupe toda a largura da tela */
-    left: 0; /* Garante que o footer comece do lado esquerdo da tela */
-    z-index: 1000; /* Garante que o footer fique acima de outros elementos */
-    margin-top: 20px; /* Espaçamento acima do footer */
+    font-family: 'Google sans', sans-serif; /* Fonte padrão do rodapé */
+    font-size: small; /* Tamanho de fonte pequeno */
+    background-color: #bee415; /* Cor de fundo amarelo claro */
+    text-align: center; /* (Nota: flexbox não é um valor válido, use 'flex' se necessário) */
+    padding: 10px 0 10px 0; /* Espaçamento interno acima e abaixo */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+    position: fixed; /* Fixa o rodapé na parte inferior da tela */
+    bottom: -15px; /* Posiciona o rodapé 15px abaixo do fundo (pode ocultar parte do rodapé) */
+    width: 100%; /* Ocupa toda a largura da tela */
+    left: 0; /* Alinha o rodapé à esquerda */
+    z-index: 100; /* Mantém o rodapé acima de outros elementos */
+    white-space: nowrap; /* Impede quebra de linha no texto */
 }
