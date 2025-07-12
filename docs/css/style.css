@@ -1,3 +1,9 @@
+img{
+    max-width: 100%; /* Garante que as imagens não excedam a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
 /* --- Reset CSS --- */
 * {
     margin: 0;
@@ -9,6 +15,7 @@
 /* --- Global / Body Styles --- */
 body {
     background-color: #ec4b4b; /* Cor de fundo azul */
+    font-size: 16px; /* Tamanho de fonte padrão */
 }
 
 a {
@@ -23,49 +30,12 @@ header {
     padding: 0;
     text-align: center;
 }
-/* --- Navigation Styles --- */
-nav {
-    /* Centraliza a navegação, se for uma barra horizontal */
-    text-align: center;
-    margin: 20px 0;
-}
-
-nav a {
-    display: inline-block; /* Crucial para aplicar largura, altura e padding corretamente */
-    background-color: #007bff; /* Cor de fundo azul para os botões */
-    color: white; /* Cor do texto branca */
-    text-decoration: none;
-    padding: 10px 20px; /* Padding interno para dar espaço ao redor do texto */
-    border: 1px solid #b30027; /* Borda sutil para o efeito de caixa */
-    border-radius: 8px; /* Cantos levemente arredondados */
-    margin: 5px; /* Espaçamento entre os botões */
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transição suave ao passar o mouse */
-    font-weight: bold; /* Deixa o texto mais evidente */
-}
-
-nav a:hover {
-    background-color: #0056b3; /* Fundo mais escuro ao passar o mouse */
-    border-color: #f00; /* Borda mais escura ao passar o mouse */
-    cursor: pointer; /* Indica que é clicável */
-}
-
 
 /* --- Estilos de Link --- */
 a {
     color: #60f10b; /* Cor azul para links */
     text-decoration: none; /* Remove o sublinhado padrão */
 }   
-
-/* --- Main Content Area Styles --- */
-main {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
 
 
 /* --- Heading Styles tittle--- */
@@ -77,7 +47,6 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: 'Google sans', sans-serif;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
     padding: 10px 0;
     border-bottom: 2px solid #ccc;
@@ -96,13 +65,10 @@ h2 {/*botoes */
     font-family: 'Google sans', sans-serif;
     padding: 5px 0; 
     margin-top: 0;
-
-    
-
     
 }
-h3
-{
+
+h3{
     color: #f5dd05;
     font-size: 1.5em; 
     margin-bottom: 10px;
@@ -116,14 +82,12 @@ h3
     margin-left: 15px;
 }
 
-
-/* --- Paragraph and List Styles --- */
-p { /* Corrigido de p1 para p */
+p { 
     font-family: 'Google sans', sans-serif;
     color: #000007;
     padding-left: 35px;
     padding-right: 35px;
-    font-size: 1.2em;
+    font-size: clamp(1rem,2vw+1rem,2.5rem);
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -139,12 +103,11 @@ ul.no-bullets {
 }
 
 ul li {
-    background: #f9f9f9;
+    background: #74688a;
     margin: 5px 0;
     padding: 13px;
     border-radius: 5px;
 }
-
 
 .input-group input[type="text"],
 .input-group input[type="password"] {
@@ -163,16 +126,11 @@ ul li {
     cursor: pointer;
     font-size: 16px;
     width: 100%;
-    /* 
-        Adds a top margin of 10 pixels to the selected element(s), 
-        creating space above them.
-    */
     margin-top: 10px;
     margin-top: 10px;
 }
+  
 
-   
-/* --- Footer Styles --- */
 footer {
     font-family: 'Google sans', sans-serif; /* Fonte padrão do rodapé */
     font-size: small; /* Tamanho de fonte pequeno */
