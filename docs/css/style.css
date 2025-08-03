@@ -1,13 +1,30 @@
     body {
-    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+    
   }
-img {
-    margin-right: 20px; /* Espaço à direita da imagem */
-    vertical-align: middle; /* Alinha verticalmente com o texto */
+  
+  h1{
+    color: #511ad1; /* Cor do título */
+    text-align: center; /* Centraliza o título */
+    font-family: 'Google sans', sans-serif; /* Fonte do título */
+    padding: 10px 0; /* Espaçamento interno acima e abaixo */
+    margin-top: 0; /* Remove a margem superior */
+    border-radius: 10px; /* Bordas arredondadas */
+    letter-spacing: 0.05em; /* Espaçamento entre letras */
 }
-  h2{
-    letter-spacing: 0.05em; 
-    text-align: center; 
+h1:hover {
+    color: #2e085a;
+    background-color: #e6e6fa;
+    transition: background 0.3s, color 0.3s;
+}
+h1::before {
+    content: "Bem-vindo ao Mundo do Python!";
+    display: block;
+    font-size: 1.5em; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */     
+}
+h2{
+    letter-spacing: 0.05em;
+    text-align: center;
     font-family: 'Google sans', sans-serif;
     padding: 5px 0; 
     margin-top: 0;
