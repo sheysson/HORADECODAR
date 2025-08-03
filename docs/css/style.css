@@ -17,7 +17,7 @@ h1:hover {
     transition: background 0.3s, color 0.3s;
 }
 h1::before {
-    content: "Bem-vindo ao Mundo do Python!";
+    content: "O Mundo do Python!";
     display: block;
     font-size: 1.5em; /* Tamanho da fonte do título */
     margin-bottom: 10px; /* Espaçamento abaixo do título */     
