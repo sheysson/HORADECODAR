@@ -1,14 +1,18 @@
     body {
-    background-color: #ec4b4b; /* Cor de fundo azul */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
   }
-  
-  
+img {
+    margin-right: 20px; /* Espaço à direita da imagem */
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+}
   h2{
     letter-spacing: 0.05em; 
     text-align: center; 
     font-family: 'Google sans', sans-serif;
     padding: 5px 0; 
     margin-top: 0;
+    border-radius: 10px;
+    
    
 }
 
